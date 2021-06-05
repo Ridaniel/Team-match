@@ -10,7 +10,7 @@ platform :android do
           task: 'assemble',
           build_type: 'Release'
       )
-  lane :distribute_beta do
+  lane :beta do
       firebase_app_distribution(
           app: APP_ID,
           testers: "ri.da.igle.es@gmail.com",
