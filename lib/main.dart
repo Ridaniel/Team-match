@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_teammatch/main_screen.dart';
 import 'package:flutter_application_teammatch/profile/user_preferences.dart';
 
-Future main() async{
+Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await UserPreferences.init();
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'TeamMatch',
+      title: 'TeamMatch2',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
